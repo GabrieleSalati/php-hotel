@@ -50,16 +50,69 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+
+    <!-- BOOTSTRAP -->
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+
 </head>
 
 <body>
-<ul>
+
+<table class="table">
+  <thead>
+    <tr>
+      <th scope="col">Hotel</th>
+      <th scope="col">Descrizione</th>
+      <th scope="col">Parcheggio</th>
+      <th scope="col">Voto</th>
+      <th scope="col">Distanza dal centro</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
     <?php foreach($hotels as $hotel) : ?>
-        <?php foreach ($hotel as $name) : ?>
-            <li><?= $name ?></li>
+        <?php foreach ($hotel as $hotel) : ?>
+            <th scope="row"></th>
+            <td><?= $hotel ?></td>
         <?php endforeach ?>
     <?php endforeach ?>
-</ul>
+    </tr>
+    <tr>
+    <?php foreach($hotels as $hotel) : ?>
+        <?php foreach ($hotel as $hotel) : ?>
+            <th scope="row"></th>
+            <td><?= $hotel ?></td>
+        <?php endforeach ?>
+    <?php endforeach ?>
+    </tr>
+    <tr>
+    <?php foreach($hotels as $hotel) : ?>
+        <?php foreach ($hotel as $hotel) : ?>
+            <th scope="row"></th>
+            <td><?= $hotel ?></td>
+        <?php endforeach ?>
+    <?php endforeach ?>
+    </tr>
+    <tr>
+    <?php foreach($hotels as $hotel) : ?>
+        <?php foreach ($hotel as $hotel) : ?>
+            <th scope="row"></th>
+            <td><?= $hotel ?></td>
+        <?php endforeach ?>
+    <?php endforeach ?>
+    </tr>
+    <tr>
+    <?php foreach($hotels as $hotel) : ?>
+        <?php foreach ($hotel as $hotel) : ?>
+            <th scope="row"></th>
+            <td><?= $hotel ?></td>
+        <?php endforeach ?>
+    <?php endforeach ?>
+    </tr>
+  </tbody>
+</table>
+
 </body>
 
 </html>
